@@ -1,19 +1,78 @@
-#root {
-  max-width: 1280px;
+#root{
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
 }
 
+
+#navbar {
+  height: 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+}
+
+
+.logoLink {
+width: 250px;
+}
+.navbarLink
+{
+margin: 1em;
+}
+.navbarLink a {
+  
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 500;
+  padding: 0.5em 1em;
+}
+
+
+#welcome{
+  background: rgb(241,0,0);
+background: linear-gradient(315deg, rgba(241,0,0,1) 0%, rgba(0,0,0,1) 56%);
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+
+
+
+
+}
+
+#welcomeLogo{
+  aspect-ratio: 2/1;
+  width: 60%;
+}
+
+#welcome h1{
+  justify-self: left;
+  color: white;
+  margin-left: 10%;
+  padding: 0;
+
+}
+
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  width: 100%;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }

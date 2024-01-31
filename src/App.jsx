@@ -1,34 +1,66 @@
-import { useState } from 'react'
+import { useState,useEffect} from 'react'
 import reactLogo from './assets/react.svg'
+import AfilumLogo from './assets/logo.png'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import {} from 'react'
 function App() {
   const [count, setCount] = useState(0)
 
+  
+  const [isTop, setIsTop] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsTop(scrollTop === 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    
+      <>  
+      
+      <div id="navbar" style={{ backgroundColor: isTop ? 'transparent' : '#fffff9', transition: 'background-color 0.3s ease' }}> 
+       
+        <a href="#welcome" className='logoLink'> <img src={AfilumLogo} alt="" className='logo' /> </a>
+
+        <div className='navbarLink'> 
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <button href> Contact Us </button>
+        </div>
+
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+
+      <section id='welcome' >
+
+        <img src={AfilumLogo} id='welcomeLogo' alt="" />
+        <h1> Där teknologin möter expertis </h1>
+
+      </section>
+
+      <section id='about'>
+        <h1>about</h1>
+        <a href="#projects">projects</a>
+      </section>
+
+      <section id='projects'>
+        <h1>projects</h1>
+        <a href="#welcome">back</a>
+      </section>
+
+
+      </>
   )
 }
 
