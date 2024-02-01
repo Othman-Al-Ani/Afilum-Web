@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
+import { ChakraProvider } from '@chakra-ui/react'
 import AfilumLogo from "./assets/logo.png";
 import viteLogo from "/vite.svg";
 import Card from "./components/card.jsx";
 import Navbar from "./components/navbar.jsx";
+
 import "./App.css";
 import {} from "react";
 
@@ -13,7 +15,8 @@ function App() {
  
   return (
     <>
-      
+    <ChakraProvider>
+    
       <Navbar />
 
       <section id="welcome">
@@ -51,7 +54,9 @@ function App() {
         <h1>projects</h1>
         <a href="#welcome">back</a>
       </section>
+      </ChakraProvider>
     </>
+    
   );
 }
 

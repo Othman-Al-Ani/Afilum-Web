@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import reactLogo from "../assets/react.svg";
 import AfilumLogo from "../assets/logo.png";
+import { Button, ButtonGroup } from '@chakra-ui/react'
 import "../App.css";
 
 
@@ -41,9 +42,9 @@ function navbar () {
         </a>
 
         <div className="navbarLink">
-          <button href="#about">About us</button>
-          <button href="#projects">Projects</button>
-          <button href> Contact us </button>
+          <Button colorScheme='black' variant='ghost' href="#about">About us</Button>
+          <Button  colorScheme='black' variant='ghost' href="#projects">Projects</Button>
+          <Button colorScheme='black' variant='ghost' href> Contact us </Button>
         </div>
       </div>
     )

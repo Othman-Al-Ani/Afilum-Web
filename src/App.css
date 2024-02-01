@@ -5,11 +5,10 @@
 
 
 #navbar {
-  height: 9%;
+  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,8 +22,10 @@
 width: 250px;
 }
 .navbarLink
+
 {
 margin: 0em;
+
 }
 .navbarLink a {
   
@@ -71,7 +72,6 @@ align-items: left;
 
 
 #about{
-  background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
