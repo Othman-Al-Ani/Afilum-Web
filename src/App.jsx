@@ -12,7 +12,8 @@ import {} from "react";
 function App() {
   return (
     <>
-      
+    
+     <ChakraProvider>
       <Navbar />
 
       <section id="welcome">
@@ -55,7 +56,7 @@ function App() {
 
       <section id="projects">
         <div id="projectText">
-          <h2> What is Afilum</h2>
+          <h1> What is Afilum</h1>
 
           <p>
             It is Icing liquorice chupa chups halvah sweet carrot cake chocolate
@@ -80,7 +81,7 @@ function App() {
            
             src="https://www.youtube.com/embed/sUKLajoQfTs"
             title="AFILUM"
-            frameborder="0"
+            frameborder="5"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
