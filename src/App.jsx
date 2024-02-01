@@ -40,9 +40,9 @@ function App() {
         </a>
 
         <div className="navbarLink">
-          <a href="#about">about</a>
+          <a href="#about">About us</a>
           <a href="#projects">projects</a>
-          <button href> Blackie </button>
+          <button href> Contact us </button>
         </div>
       </div>
 
