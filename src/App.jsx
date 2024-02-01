@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import AfilumLogo from "./assets/logo.png";
 import viteLogo from "/vite.svg";
-import Card from "./card.jsx";
+import Card from "./components/card.jsx";
 import "./App.css";
 import {} from "react";
 
