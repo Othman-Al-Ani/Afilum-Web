@@ -1,8 +1,10 @@
-#root{
+#root {
   margin: 0 auto;
 
 }
 
+
+/*-------------NAVBAR-----------------*/
 
 #navbar {
   height: 10%;
@@ -19,16 +21,16 @@
 
 
 .logoLink {
-width: 250px;
+  width: 250px;
 }
-.navbarLink
 
-{
-margin: 0em;
+.navbarLink {
+  margin: 0em;
 
 }
+
 .navbarLink a {
-  
+
   color: black;
   text-decoration: none;
   font-size: 2em;
@@ -37,43 +39,47 @@ margin: 0em;
 }
 
 
-#welcome{
-  background: rgb(241,0,0);
-background: linear-gradient(315deg, rgba(241,0,0,1) 0%, rgba(0,0,0,1) 56%);
+.logo {
+  width: 65%;
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: left;
-height: 100vh;
 }
 
-#welcomeLogo{
+
+/*-------------WELCOME PAGE-----------------*/
+
+#welcome {
+  background: rgb(241, 0, 0);
+  background: linear-gradient(315deg, rgba(241, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 56%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+}
+
+#welcomeLogo {
   aspect-ratio: 2/1;
   width: 60%;
 }
 
-#welcome h1{
+#welcome h1 {
   justify-self: left;
   color: white;
   margin-left: 10%;
   padding: 0;
-  
+
 
 }
 
 
-.logo {
-  width: 65%;
- 
-}
+
+/*-------------ABOUT PAGE-----------------*/
 
 
 
 
-
-
-#about{
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,18 +88,19 @@ height: 100vh;
 }
 
 
-#faceCard{
+#faceCard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 99.5vw
-
 }
+
 /* Default styles */
 .card {
   padding: 0;
-  margin: 2%; /* Decreased margin value */
+  margin: 2%;
+  /* Decreased margin value */
   background-color: aqua;
   width: 100%;
   aspect-ratio: 3/4;
@@ -102,7 +109,7 @@ height: 100vh;
   flex-direction: row;
   position: relative;
   border-radius: 10px;
-  
+
 }
 
 .cardText {
@@ -115,16 +122,17 @@ height: 100vh;
   align-self: flex-end;
   position: absolute;
   font-size: 70%;
-  border-bottom-left-radius: 9px; /* Added border radius for bottom left corner */
+  border-bottom-left-radius: 9px;
+  /* Added border radius for bottom left corner */
   border-bottom-right-radius: 9px;
-  border-right: black  1px solid; 
-   /* Added border radius for bottom right corner */
+  border-right: black 1px solid;
+  /* Added border radius for bottom right corner */
 }
 
 
+/*-------------PROJECTS PAGE-----------------*/
 
-
-#projects{
+#projects {
   background-color: #f1f1f1;
   display: flex;
   flex-direction: row;
@@ -134,7 +142,7 @@ height: 100vh;
 
 /* Responsive styles */
 
-#projectText{
+#projectText {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,51 +153,87 @@ height: 100vh;
 }
 
 #projectVid {
- display: flex;
-width: 50%;
-padding: 5%;
-align-items: center;
-justify-content: center;
-height: 100%;
+  display: flex;
+  width: 50%;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
-#projectVid iframe{
+#projectVid iframe {
   width: 100%;
   aspect-ratio: 4/3;
 }
 
 
+/*-------------VISION PAGE-----------------*/
+
+#vision {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5%;
+  text-align: left;
+}
+
+#visionText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+/*-------------RESPONSIVE PARTs-----------------*/
+
 @media screen and (max-width: 1000px) {
 
-  #about{
+  #about {
     height: fit-content;
   }
-  
-    #faceCard {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 5%;
-    }
-    
-    .card {
-      width: 70%;
-    }
-  
-  
-    #projects{
-      height: fit-content;
-      flex-direction: column;
-    }
-    #projectText{
-      width: 90%;
-      align-items: center;
-      text-align: center;
-     
-    }
-    #projectVid{
-      width: 90%;
-    }
+
+  #faceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
   }
-  
+
+  .card {
+    width: 70%;
+  }
+
+
+  #projects {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  #projectText {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  #projectVid {
+    width: 90%;
+  }
+}
