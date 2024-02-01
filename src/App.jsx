@@ -40,8 +40,8 @@ function App() {
         </a>
 
         <div className="navbarLink">
-          <a href="#about">About us</a>
-          <a href="#projects">projects</a>
+          <button href="#about">About us</button>
+          <button href="#projects">Projects</button>
           <button href> Contact us </button>
         </div>
       </div>
@@ -52,7 +52,7 @@ function App() {
       </section>
 
       <section id="about">
-        <h1>about</h1> 
+        <h1>About</h1> 
 
         <div id="faceCard"> 
         <Card titel="namn och titel"
