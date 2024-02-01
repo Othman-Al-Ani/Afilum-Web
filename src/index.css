@@ -41,7 +41,7 @@
 
 section {
 width: 99.5vw;
-height: 100vh;
+height: fit-content;
 display: flex;
 
 }

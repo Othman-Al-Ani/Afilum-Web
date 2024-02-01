@@ -8,12 +8,8 @@ import "./App.css";
 import {} from "react";
 
 function App() {
-  
- 
- 
   return (
     <>
-      
       <Navbar />
 
       <section id="welcome">
@@ -22,34 +18,70 @@ function App() {
       </section>
 
       <section id="about">
-        <h1>About</h1> 
+        <h1>About</h1>
+        <h2>Vi är fem studenter som fixar sjuka saker </h2>
 
-        
-        <div id="faceCard"> 
-        <Card titel="namn och titel"
-         description="skriv om dig"
-        image={reactLogo} />
-         <Card titel="namn och titel"
-         description="skriv om dig"
-        image={reactLogo} />
-         <Card titel="namn och titel"
-         description="skriv om dig"
-        image={reactLogo} />
-         <Card titel="namn och titel"
-         description="skriv om dig"
-        image={reactLogo} />
-         <Card titel="namn och titel"
-         description="skriv om dig"
-        image={reactLogo} />
-       </div>
-       
-
-
+        <div id="faceCard">
+          <Card
+            titel="namn och titel"
+            description="skriv om dig"
+            image={reactLogo}
+          />
+          <Card
+            titel="namn och titel"
+            description="skriv om dig"
+            image={reactLogo}
+          />
+          <Card
+            titel="namn och titel"
+            description="skriv om dig"
+            image={reactLogo}
+          />
+          <Card
+            titel="namn och titel"
+            description="skriv om dig"
+            image={reactLogo}
+          />
+          <Card
+            titel="namn och titel"
+            description="skriv om dig"
+            image={reactLogo}
+          />
+        </div>
       </section>
 
       <section id="projects">
-        <h1>projects</h1>
-        <a href="#welcome">back</a>
+        <div id="projectText">
+          <h2> What is Afilum</h2>
+
+          <p>
+            It is Icing liquorice chupa chups halvah sweet carrot cake chocolate
+            bar. Liquorice oat cake dragée shortbread cake marshmallow bear claw
+            pastry. Tiramisu cake danish cheesecake croissant caramels. Sweet
+            roll apple pie toffee oat cake tart dessert soufflé gummies jujubes.
+            Sweet roll soufflé candy canes soufflé apple pie bear claw jelly.
+            Croissant brownie croissant apple pie fruitcake croissant ice cream.
+            Cotton candy oat cake caramels cotton candy brownie jelly beans
+            lemon drops. Biscuit pudding caramels pudding lemon drops gummi
+            bears lemon drops pie gummi bears. Tootsie roll tart cupcake apple
+            pie icing cake. Fruitcake biscuit cupcake topping pie. Chocolate bar
+            cake liquorice halvah cheesecake bonbon sugar plum wafer. Jelly-o
+            jelly candy canes oat cake powder caramels muffin sweet.F
+          </p>
+        </div>
+
+        <div id="projectVid">
+          <iframe
+            width="560"
+            height="315"
+           
+            src="https://www.youtube.com/embed/sUKLajoQfTs"
+            title="AFILUM"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
     </>
   );
