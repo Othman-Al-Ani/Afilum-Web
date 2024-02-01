@@ -55,14 +55,22 @@ function App() {
         <h1>about</h1> 
 
         <div id="faceCard"> 
-        <Card />
-
-        <Card />
-        <Card />
-
-<Card />
-<Card />
-
+        <Card titel="namn och titel"
+         description="skriv om dig"
+        image={reactLogo} />
+         <Card titel="namn och titel"
+         description="skriv om dig"
+        image={reactLogo} />
+         <Card titel="namn och titel"
+         description="skriv om dig"
+        image={reactLogo} />
+         <Card titel="namn och titel"
+         description="skriv om dig"
+        image={reactLogo} />
+         <Card titel="namn och titel"
+         description="skriv om dig"
+        image={reactLogo} />
+       
        </div>
 
       </section>

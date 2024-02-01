@@ -3,7 +3,10 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 
-function Card() {
+function Card(data) {
+
+const{titel, description, image} = data;
+  
 
 
   const [Ishover, setIshover] = useState(false);
@@ -26,7 +29,7 @@ const handleEnter = () => {
 
     
        
-  <img src={reactLogo} width={"100%"} alt="sätt in egen bild" />
+  <img src={image} width={"100%"} alt="sätt in egen bild" />
 
 <div
   className="cardText"
@@ -36,7 +39,7 @@ const handleEnter = () => {
   }}
   
 >
-  <h2> Namn och titel </h2>
+  <h2> {titel} </h2>
   {Ishover && (
     <p
       style={{
@@ -44,7 +47,7 @@ const handleEnter = () => {
         transition: "opacity 1s ease",
       }}
     >
-      Om dig själv 
+      {description}
     </p>
   )}
 </div>

@@ -15,6 +15,7 @@
   left: 0;
   right: 0;
   padding: 1em;
+  z-index: 1;
 }
 
 
@@ -61,17 +62,13 @@ align-items: left;
 
 .logo {
   width: 100%;
-  will-change: filter;
-  transition: filter 300ms;
+ 
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
+
+
 
 #about{
   background-color: #f1f1f1;
@@ -82,29 +79,29 @@ align-items: left;
   
 }
 
+
 #faceCard{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  aspect-ratio: 3/2;
+  width: 99.5vw
 
 }
-
+/* Default styles */
 .card {
   padding: 0;
-  margin: 5em;
+  margin: 2%; /* Decreased margin value */
   background-color: aqua;
-  height: 40%;
+  width: 100%;
   aspect-ratio: 3/4;
-  border:black 1px solid;
+  border: black 1px solid;
   display: flex;
   flex-direction: row;
-  position: relative; /* Added this line */
+  position: relative;
 }
 
-.cardText{
+.cardText {
   background-color: white;
   width: 100%;
   display: flex;
@@ -112,31 +109,25 @@ align-items: left;
   align-items: center;
   justify-content: center;
   align-self: flex-end;
-  z-index: 1;
-  position: absolute; /* Added this line */
-  bottom: 0; /* Added this line */
-  left: 0; /* Added this line */
+  position: absolute;
+  font-size: 70%;
 }
 
-
-
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    margin: 2em;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .cardText {
+    align-self: center;
+    position: static;
   }
 }
 
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
+
