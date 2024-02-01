@@ -1,67 +1,78 @@
-import { useState,useEffect} from 'react'
-import reactLogo from './assets/react.svg'
-import AfilumLogo from './assets/logo.png'
-import viteLogo from '/vite.svg'
-import './App.css'
-import {} from 'react'
-function App() {
-  const [count, setCount] = useState(0)
+import { useState, useEffect } from "react";
+import reactLogo from "./assets/react.svg";
+import AfilumLogo from "./assets/logo.png";
+import viteLogo from "/vite.svg";
+import Card from "./card.jsx";
+import "./App.css";
+import {} from "react";
 
-  
+function App() {
+  const [count, setCount] = useState(0);
+
   const [isTop, setIsTop] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
       setIsTop(scrollTop === 0);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-
-
+ 
   return (
-    
-      <>  
-      
-      <div id="navbar" style={{ backgroundColor: isTop ? 'transparent' : '#fffff9', transition: 'background-color 0.3s ease' }}> 
-       
-        <a href="#welcome" className='logoLink'> <img src={AfilumLogo} alt="" className='logo' /> </a>
+    <>
+      <div
+        id="navbar"
+        style={{
+          backgroundColor: isTop ? "transparent" : "#fffff9",
+          transition: "background-color 0.3s ease",
+        }}
+      >
+        <a href="#welcome" className="logoLink">
+          {" "}
+          <img src={AfilumLogo} alt="" className="logo" />{" "}
+        </a>
 
-        <div className='navbarLink'> 
-        <a href="#about">about</a>
-        <a href="#projects">projects</a>
-        <button href> Contact Us </button>
+        <div className="navbarLink">
+          <a href="#about">about</a>
+          <a href="#projects">projects</a>
+          <button href> Contact Us </button>
         </div>
-
-
       </div>
 
-
-      <section id='welcome' >
-
-        <img src={AfilumLogo} id='welcomeLogo' alt="" />
+      <section id="welcome">
+        <img src={AfilumLogo} id="welcomeLogo" alt="" />
         <h1> Där teknologin möter expertis </h1>
+      </section>
+
+      <section id="about">
+        <h1>about</h1> 
+
+        <div id="faceCard"> 
+        <Card />
+
+        <Card />
+        <Card />
+
+<Card />
+<Card />
+
+       </div>
 
       </section>
 
-      <section id='about'>
-        <h1>about</h1>
-        <a href="#projects">projects</a>
-      </section>
-
-      <section id='projects'>
+      <section id="projects">
         <h1>projects</h1>
         <a href="#welcome">back</a>
       </section>
-
-
-      </>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

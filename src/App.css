@@ -43,10 +43,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: left;
-
-
-
-
 }
 
 #welcomeLogo{
@@ -77,6 +73,54 @@ align-items: left;
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+#about{
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#faceCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 3/2;
+
+}
+
+.card {
+  padding: 0;
+  margin: 5em;
+  background-color: aqua;
+  height: 40%;
+  aspect-ratio: 3/4;
+  border:black 1px solid;
+  display: flex;
+  flex-direction: row;
+  position: relative; /* Added this line */
+}
+
+.cardText{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  z-index: 1;
+  position: absolute; /* Added this line */
+  bottom: 0; /* Added this line */
+  left: 0; /* Added this line */
+}
+
+
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -92,9 +136,6 @@ align-items: left;
   }
 }
 
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
   color: #888;
