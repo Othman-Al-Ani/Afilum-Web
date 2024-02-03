@@ -1,0 +1,12 @@
+.logoBTN {
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.logoBTN:hover {
+  transform: scale(1.15);
+}
+
+.logoBTN:active {
+  transform: scale(1);
+}

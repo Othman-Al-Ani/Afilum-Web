@@ -1,52 +1,46 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
   /* line-height: 1.5;
   font-weight: 400; */
 
   /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87); */
 
-  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   /* Change scroll behavior */
   scroll-behavior: smooth;
 
   ::-webkit-scrollbar {
     width: 0.5vw;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background-color :black; 
-    
+    background-color: black;
   }
-   
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
     border-radius: 50px;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #646cff; 
+    background: #646cff;
   }
-    
-  
 }
 
 section {
-width: 99.5vw;
-height: fit-content;
-display: flex;
-
+  width: 99.5vw;
+  height: fit-content;
+  display: flex;
 }
-
-
 
 a {
   font-weight: 500;
@@ -61,12 +55,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-
 }
 
 h1 {
   font-size: 3.2em;
- 
 }
 
 button {
@@ -78,15 +70,13 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  
-  
+  transition: all ease-in-out 0.3s;
 }
 button:hover {
-  border-color: white;
+  transform: scale(1.4);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+button:active {
+  transform: scale(1);
 }
 
 @media (prefers-color-scheme: light) {
