@@ -75,6 +75,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #1d1d1d;
+  color: white;
 }
 
 #faceCard {
@@ -93,15 +95,21 @@
   background-color: aqua;
   width: 100%;
   aspect-ratio: 3/4;
-  border: black 2px solid;
+  border: white 2px solid;
   display: flex;
   flex-direction: row;
   position: relative;
   border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .cardText {
-  background-color: white;
+  background-color: #1d1d1d;
+  color: white;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -120,7 +128,7 @@
 /*-------------PROJECTS PAGE-----------------*/
 
 #projects {
-  background-color: #f1f1f1;
+  background-color: #1d1d1d;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -137,6 +145,7 @@
   width: 50%;
   padding: 5%;
   text-align: left;
+  color: white;
 }
 
 #projectVid {
@@ -156,7 +165,7 @@
 /*-------------VISION PAGE-----------------*/
 
 #vision {
-  background-color: #f1f1f1;
+  background-color: #1d1d1d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,6 +180,7 @@
 
   padding: 5%;
   text-align: left;
+  color: white;
 }
 
 #visionText {
@@ -181,6 +191,7 @@
 
   text-align: center;
   padding: 5%;
+  color: white;
 }
 
 /*-------------RESPONSIVE PARTs-----------------*/

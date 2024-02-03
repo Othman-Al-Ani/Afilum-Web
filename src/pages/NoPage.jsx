@@ -6,7 +6,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import AfilumLogo from "../assets/logo.png";
 
 // Components import
-import Navbar from "../components/navbar.jsx";
+import Navbar from "../components/Navbar/navbar.jsx";
 
 import "./NoPage.css";
 

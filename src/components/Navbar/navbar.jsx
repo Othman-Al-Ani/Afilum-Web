@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import reactLogo from "../assets/react.svg";
-import AfilumLogo from "../assets/logo.png";
+import reactLogo from "../../assets/react.svg";
+import AfilumLogo from "../../assets/logo.png";
 import { Button, ButtonGroup } from "@chakra-ui/react";
-import "../App.css";
+import "../../App.css";
 import { Link } from "react-scroll";
-import "./navbar.css";
+
+import NavbarBTN from "./navbarBTN.jsx";
 
 import LogoBTN from "./logo.jsx";
 
@@ -28,7 +29,7 @@ function navbar() {
     <div
       id="navbar"
       style={{
-        backgroundColor: isTop ? "transparent" : "#fffff9",
+        backgroundColor: isTop ? "transparent" : "#2a2a2a",
         transition: "background-color 0.3s ease",
       }}
     >
@@ -41,13 +42,9 @@ function navbar() {
           </Button>
         </Link>
 
-        <Button colorScheme="black" variant="ghost" href="#projects">
-          Projects
-        </Button>
-        <Button colorScheme="black" variant="ghost" href>
-          {" "}
-          Contact us{" "}
-        </Button>
+        <NavbarBTN ButtonText={"Projects"} PageRef={""} />
+
+        <NavbarBTN ButtonText={"Contact us"} PageRef={"/Contact"} />
       </div>
     </div>
   );

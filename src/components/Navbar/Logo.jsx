@@ -1,6 +1,6 @@
 import React from "react";
 import "./Logo.css";
-import AfilumLogo from "../assets/logo.png";
+import AfilumLogo from "../../assets/logo.png";
 
 import { Link } from "react-router-dom";
 

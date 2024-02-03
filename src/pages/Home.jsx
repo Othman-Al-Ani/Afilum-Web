@@ -8,7 +8,7 @@ import reactLogo from "../assets/react.svg";
 
 // Components imports
 import Card from "../components/card.jsx";
-import Navbar from "../components/navbar.jsx";
+import Navbar from "../components/Navbar/navbar.jsx";
 import Timeline from "../components/timeline.jsx";
 
 function Home() {
