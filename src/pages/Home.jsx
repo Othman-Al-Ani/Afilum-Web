@@ -21,6 +21,7 @@ function Home() {
         <section id="welcome">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Där teknologin möter expertis </h1>
+         
         </section>
 
         <section id="about">
