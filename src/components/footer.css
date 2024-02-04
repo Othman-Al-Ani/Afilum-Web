@@ -1,0 +1,44 @@
+/* Footer styles */
+.footer {
+    width: 99.5vw;
+    background-color: #2a2a2a;
+
+    text-align: center;
+    color: #ffff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+.footer p {
+    margin: 0;
+    font-size: 1 rem;
+}
+
+.footer a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+#footerLogo {
+
+   width: 30vw;
+}
+
+#footerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60vw;
+}

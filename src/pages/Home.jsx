@@ -10,6 +10,7 @@ import reactLogo from "../assets/react.svg";
 import Card from "../components/card.jsx";
 import Navbar from "../components/Navbar/navbar.jsx";
 import Timeline from "../components/timeline.jsx";
+import Footer from "../components/footer.jsx";
 
 function Home() {
   return (
@@ -119,9 +120,9 @@ function Home() {
           </div>
         </section>
 
-        <footer>
-          <h1>Footer</h1>
-        </footer>
+ 
+          <Footer />
+       
       </ChakraProvider>
     </>
   );
