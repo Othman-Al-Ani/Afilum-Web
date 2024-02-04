@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 99.5vw;
 }
 
 #main h1 {
@@ -90,7 +90,6 @@
   height: 4vh;
 
   border-radius: 5px;
-  /* background-color: rgb(255, 67, 67); */
   font-size: 2.5vh;
   font-weight: 700;
 
@@ -139,4 +138,152 @@
   font-size: 3.5vh;
   text-align: left;
   margin-left: 1vw;
+}
+
+/*-----------------------------MOBILE VERSION-------------------------------*/
+
+@media only screen and (max-width: 1500px) {
+  /*-------------MAIN-----------------*/
+  #root {
+    margin: 0 auto;
+  }
+
+  #main {
+    background: rgb(241, 0, 0);
+    background: linear-gradient(
+      315deg,
+      rgba(241, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 56%
+    );
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 99.5vw;
+  }
+
+  #main h1 {
+    justify-self: left;
+    color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 0;
+    font-size: 4vh;
+  }
+
+  #main h2 {
+    justify-self: left;
+    font-size: 2.5vh;
+    color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 0;
+  }
+
+  /*-------------CARD-----------------*/
+
+  #card_body {
+    background-color: rgba(56, 56, 56, 0.65);
+    height: 70vh;
+    width: 80vw;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: left;
+  }
+
+  /*-------------FORM DIV-----------------*/
+
+  #form_div {
+    width: 100%;
+    height: 80%;
+  }
+  #input {
+    width: 70vw;
+    height: 4vh;
+
+    border-radius: 5px;
+    background-color: rgb(153, 153, 153);
+    font-size: 2.5vh;
+    font-weight: 600;
+
+    margin-left: 2%;
+    margin-top: 2vh;
+    justify-self: left;
+  }
+
+  #message_input {
+    width: 70vw;
+    height: 15vh;
+
+    border-radius: 5px;
+    background-color: rgb(153, 153, 153);
+    font-size: 2vh;
+    font-weight: 600;
+
+    margin-left: 2%;
+    margin-top: 2vh;
+
+    scrollbar-color: white;
+  }
+
+  #send {
+    width: 50vw;
+    height: 4vh;
+
+    border-radius: 5px;
+    font-size: 1.7vh;
+    font-weight: 700;
+
+    margin-left: 2%;
+    margin-top: 1vh;
+    justify-self: left;
+    cursor: pointer;
+
+    transition: all ease-in-out 0.2s;
+  }
+
+  #send:hover {
+    transform: scale(1.03);
+  }
+
+  #send:active {
+    transform: scale(1);
+  }
+
+  /*-------------CONTACT INFORMATION DIV-----------------*/
+
+  #contact_div {
+    width: 100%;
+    height: 17%;
+    display: flex;
+  }
+
+  #contact_div #logo {
+    height: 0vh;
+  }
+
+  #info_form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+  }
+
+  #info_form #icon {
+    height: 3vh;
+    margin-left: 2vw;
+  }
+
+  #info_form h3 {
+    color: white;
+    font-size: 2vh;
+    text-align: left;
+    margin-left: 1vw;
+  }
 }

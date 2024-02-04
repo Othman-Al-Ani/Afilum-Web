@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+#BTN_Div {
+  width: 100%;
+  display: flex;
+  padding-bottom: 3vh;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+
+  font-size: 3vh;
+}
+
+#Icon {
+  height: 6vh;
+}

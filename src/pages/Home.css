@@ -197,6 +197,40 @@
 /*-------------RESPONSIVE PARTs-----------------*/
 
 @media screen and (max-width: 1000px) {
+  /*-------------NAVBAR-----------------*/
+
+  #navbar {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    z-index: 1;
+  }
+
+  .logoLink {
+    width: 250px;
+  }
+
+  .navbarLink {
+    margin: 0em;
+  }
+
+  .navbarLink a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-weight: 500;
+    padding: 0.5em 1em;
+  }
+
+  .logo {
+    width: 65%;
+  }
+
   #about {
     height: fit-content;
   }

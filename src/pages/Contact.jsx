@@ -11,6 +11,7 @@ import Phone from ".././assets/phone.png";
 
 // Components import
 import Navbar from "../components/Navbar/navbar.jsx";
+import Footer from "../components/footer.jsx";
 
 const Contact = () => {
   const hasSentMail = localStorage.getItem("hasSent");
@@ -68,7 +69,7 @@ const Contact = () => {
                 <textarea type="text" name="message" id="message_input" />
                 <input
                   type="submit"
-                  value={hasSent ? "Message has been sent" : "Send"}
+                  value={hasSent ? "Thank you" : "Send"}
                   id="send"
                   style={{
                     backgroundColor: hasSent ? "green" : "red",
@@ -79,17 +80,20 @@ const Contact = () => {
 
             <div id="contact_div">
               <img src={AfilumLogo} alt="Afilum logo" id="logo" />
-              <div id="info_form">
-                <img src={Mail} alt="" id="icon" />
-                <h3>colinbexell@gmail.com</h3>
-              </div>
-              <div id="info_form">
-                <img src={Phone} alt="" id="icon" />
-                <h3>+4601609060</h3>
+              <div id="info_form_div">
+                <div id="info_form">
+                  <img src={Mail} alt="" id="icon" />
+                  <h3>colinbexell@gmail.com</h3>
+                </div>
+                <div id="info_form">
+                  <img src={Phone} alt="" id="icon" />
+                  <h3>+4601609060</h3>
+                </div>
               </div>
             </div>
           </div>
         </section>
+        <Footer />
       </ChakraProvider>
     </>
   );
