@@ -5,6 +5,7 @@ import "./Home.css";
 // Assets
 import AfilumLogo from "../assets/logo.png";
 import reactLogo from "../assets/react.svg";
+import sexiColin from "../assets/sexiColin.jpg";
 
 // Components imports
 import Card from "../components/card.jsx";
@@ -21,36 +22,41 @@ function Home() {
         <section id="welcome">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Där teknologin möter expertis </h1>
-         
         </section>
 
         <section id="about">
           <h1>About</h1>
-          <h2>Vi är fem studenter som fixar sjuka saker </h2>
+          <h2
+            style={{
+              fontSize: 20,
+            }}
+          >
+            Vi är fem studenter som fixar sjuka saker{" "}
+          </h2>
 
           <div id="faceCard">
             <Card
-              titel="namn och titel"
+              titel="Ellis Jansson"
               description="skriv om dig"
               image={reactLogo}
             />
             <Card
-              titel="namn och titel"
+              titel="Igor Szubert"
               description="skriv om dig"
               image={reactLogo}
             />
             <Card
-              titel="namn och titel"
+              titel="Othman Al Ani"
               description="skriv om dig"
               image={reactLogo}
             />
             <Card
-              titel="namn och titel"
+              titel="Colin Bexell"
               description="skriv om dig"
-              image={reactLogo}
+              image={sexiColin}
             />
             <Card
-              titel="namn och titel"
+              titel="Olivia Lindén"
               description="skriv om dig"
               image={reactLogo}
             />
@@ -121,9 +127,7 @@ function Home() {
           </div>
         </section>
 
- 
-          <Footer />
-       
+        <Footer />
       </ChakraProvider>
     </>
   );

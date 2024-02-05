@@ -26,12 +26,20 @@ function Card(data) {
           transition: "height 0.3s ease",
         }}
       >
-        <h2> {titel} </h2>
+        <h2
+          style={{
+            fontSize: 20,
+          }}
+        >
+          {" "}
+          {titel}{" "}
+        </h2>
         {Ishover && (
           <p
             style={{
               opacity: Ishover ? 1 : 0,
               transition: "opacity 1s ease",
+              fontSize: 12,
             }}
           >
             {description}
