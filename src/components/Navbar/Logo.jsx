@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const logo = () => {
   return (
+    
     <Link to={"/Home"} className="logoLink">
       <a>
         {" "}
