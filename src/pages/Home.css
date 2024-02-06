@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 #root {
   margin: 0 auto;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*-------------NAVBAR-----------------*/
@@ -19,12 +19,13 @@
   z-index: 1;
 }
 
-.logoLink {
-  width: 250px;
-}
 
 .navbarLink {
-  margin: 0em;
+  display: flex;
+
+ justify-content: center ;
+align-items: center;
+height: 100%;
 }
 
 .navbarLink a {

@@ -56,9 +56,9 @@ function navbar() {
       <LogoBTN />
 
       <div className="navbarLink">
-        <Link to="about" smooth={true} duration={50}>
-          <NavbarBTN ButtonText={"About Us"} PageRef={"/Home"} />
-        </Link>
+       
+        <NavbarBTN ButtonText={"About Us"} PageRef={ "#about"} />
+       
 
         <NavbarBTN ButtonText={"Projects"} PageRef={""} />
 
