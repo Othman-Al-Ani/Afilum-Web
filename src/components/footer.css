@@ -1,6 +1,6 @@
 /* Footer styles */
 .footer {
-    width: 99.5vw;
+
     background-color: #2a2a2a;
     text-align: center;
     color: #ffff;
@@ -48,7 +48,9 @@
         align-items: flex-start;
 
     }
-
+    .footer {
+        width: 100%;
+    }
     #footerLogo {
         width: 100%;
     }

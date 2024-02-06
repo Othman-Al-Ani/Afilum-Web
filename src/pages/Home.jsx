@@ -6,6 +6,7 @@ import "./Home.css";
 import AfilumLogo from "../assets/logo.png";
 import reactLogo from "../assets/react.svg";
 import sexiColin from "../assets/sexiColin.jpg";
+import LinkedIn from ".././assets/LinkedIn.png";
 
 // Components imports
 import Card from "../components/card.jsx";
@@ -22,6 +23,14 @@ function Home() {
         <section id="welcome">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Där teknologin möter expertis </h1>
+          <div id="linkedinLink" >
+
+            <a href="https://www.linkedin.com/company/afilum/" >
+              <img src={LinkedIn} alt="" />
+
+            </a>
+
+          </div>
         </section>
 
         <section id="about">

@@ -93,7 +93,7 @@ const Contact = () => {
                 <div id="info_form">
                   <img src={LinkedIn} alt="" id="icon" />
                   <a href="https://www.linkedin.com/company/afilum/">
-                    <h3>Afilum</h3>
+                    <h3>LinkedIn</h3>
                   </a>
                   
                 </div>

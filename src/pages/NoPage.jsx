@@ -15,7 +15,7 @@ const NoPage = () => {
     <>
       <ChakraProvider>
         <Navbar />
-        <section id="welcome">
+        <section id="welcome2">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Uh Oh! </h1>
           <h1> 404 Not Found: This page does not exist! </h1>
