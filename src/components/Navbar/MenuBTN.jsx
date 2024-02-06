@@ -1,10 +1,10 @@
 import React from "react";
 import "./MenuBTN.css";
 
-const MenuBTN = ({ PageRef, ButtonText, Icon }) => {
+const MenuBTN = ({ PageRef, ButtonText }) => {
   return (
     <div id="BTN_Div">
-      <img src={Icon} id="Icon" />
+  
       <a href={PageRef}>
         <button id="MenuBTN">{ButtonText}</button>
       </a>

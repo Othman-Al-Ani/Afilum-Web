@@ -6,9 +6,16 @@
   padding-bottom: 3vh;
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
-
   font-size: 3vh;
 }
+
+#MenuBTN:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+
 
 #Icon {
   height: 6vh;

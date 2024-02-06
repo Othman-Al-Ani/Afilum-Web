@@ -106,13 +106,13 @@ function navbar() {
             <MenuBTN
               ButtonText={"About us"}
               PageRef={"/Home"}
-              Icon={AboutIcon}
+             
             />
             <MenuBTN ButtonText={"Projects"} PageRef={""} Icon={ProjectsIcon} />
             <MenuBTN
               ButtonText={"Contact us"}
               PageRef={"/Contact"}
-              Icon={ContactIcon}
+             
             />
           </DrawerBody>
         </DrawerContent>
