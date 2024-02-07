@@ -63,7 +63,7 @@ function navbar() {
         <NavbarBTN ButtonText={"About Us"} PageRef={ "#about"} />
        
 
-        <NavbarBTN ButtonText={"Projects"} PageRef={""} />
+        {/* <NavbarBTN ButtonText={"Projects"} PageRef={""} /> */}
 
         <NavbarBTN ButtonText={"Contact us"} PageRef={"/Contact"} />
 
