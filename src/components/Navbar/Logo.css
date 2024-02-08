@@ -14,8 +14,4 @@
   transform: scale(1);
 }
 
-@media only screen and (max-width: 850px) {
-  .logoBTN {
-    width: 80%;
-  }
-}
+

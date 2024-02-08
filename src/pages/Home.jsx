@@ -23,14 +23,14 @@ function Home() {
         <section id="welcome">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Där teknologin möter expertis </h1>
-          <div id="linkedinLink" >
+       
 
-            <a href="https://www.linkedin.com/company/afilum/" >
-              <img src={LinkedIn} alt="" />
+            <a  href="https://www.linkedin.com/company/afilum/" >
+              <img id="linkedinLink" src={LinkedIn} alt="" />
 
             </a>
 
-          </div>
+        
         </section>
 
         <section id="about">

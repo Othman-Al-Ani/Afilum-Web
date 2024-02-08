@@ -6,7 +6,7 @@
 
 /*-------------NAVBAR-----------------*/
 #navbar {
-  height: 15%;
+  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,13 +14,14 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 1em;
+  padding: 0.5em;
   z-index: 1;
   
 }
 
 .logoLink {
-  width: 100px;
+height: 100%;
+aspect-ratio: 1/1;
 }
 
 .navbarLink {
@@ -81,8 +82,10 @@
 #linkedinLink {
   color: white;
  
-  padding: 0.5em 1em;
+ 
   margin-left: 10%;
+  width: 3%;
+  aspect-ratio: 1/1;
 
 }
 
@@ -231,7 +234,8 @@
   }
 
   .logoLink {
-    width: 90px;
+   height: 100%;
+   aspect-ratio: 1/1;
     
   } 
 
@@ -255,6 +259,11 @@
   .logo {
     width: 65%;
   }
+
+#linkedinLink {
+  color: white;
+  width: 20%;
+}
 
   #about {
     height: fit-content;
