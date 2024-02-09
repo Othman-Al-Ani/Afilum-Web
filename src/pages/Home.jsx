@@ -22,7 +22,7 @@ function Home() {
 
         <section id="welcome">
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
-          <h1> Där teknologin möter expertis </h1>
+          <h1> Where mechanical expertise converges with technology </h1>
        
 
             <a  href="https://www.linkedin.com/company/afilum/" >
@@ -35,23 +35,23 @@ function Home() {
 
         <section id="about">
           <h1>About</h1>
-          <h2
+          <h2 className="about h2"
             style={{
               fontSize: 20,
             }}
           >
-            Vi är fem studenter som fixar sjuka saker{" "}
+            The five faces that represents Afilum.{" "}
           </h2>
 
           <div id="faceCard">
             <Card
               titel="Ellis Jansson"
-              description="skriv om dig"
+              description="The specialist who excel in design"
               image={reactLogo}
             />
             <Card
               titel="Igor Szubert"
-              description="skriv om dig"
+              description=""
               image={reactLogo}
             />
             <Card
@@ -77,19 +77,9 @@ function Home() {
             <h1> What is Afilum</h1>
 
             <p>
-              It is Icing liquorice chupa chups halvah sweet carrot cake
-              chocolate bar. Liquorice oat cake dragée shortbread cake
-              marshmallow bear claw pastry. Tiramisu cake danish cheesecake
-              croissant caramels. Sweet roll apple pie toffee oat cake tart
-              dessert soufflé gummies jujubes. Sweet roll soufflé candy canes
-              soufflé apple pie bear claw jelly. Croissant brownie croissant
-              apple pie fruitcake croissant ice cream. Cotton candy oat cake
-              caramels cotton candy brownie jelly beans lemon drops. Biscuit
-              pudding caramels pudding lemon drops gummi bears lemon drops pie
-              gummi bears. Tootsie roll tart cupcake apple pie icing cake.
-              Fruitcake biscuit cupcake topping pie. Chocolate bar cake
-              liquorice halvah cheesecake bonbon sugar plum wafer. Jelly-o jelly
-              candy canes oat cake powder caramels muffin sweet.F
+            Afilum is a company that consists of five young entrepreneurs. 
+            We digitize the process between mechanics and customers within trailer workshops. 
+            Through our digitized system, we minimize the risk of mistakes and reduce the time for administrative work.
             </p>
           </div>
 
@@ -119,19 +109,11 @@ function Home() {
             <h1> Our Vision</h1>
 
             <p>
-              It is Icing liquorice chupa chups halvah sweet carrot cake
-              chocolate bar. Liquorice oat cake dragée shortbread cake
-              marshmallow bear claw pastry. Tiramisu cake danish cheesecake
-              croissant caramels. Sweet roll apple pie toffee oat cake tart
-              dessert soufflé gummies jujubes. Sweet roll soufflé candy canes
-              soufflé apple pie bear claw jelly. Croissant brownie croissant
-              apple pie fruitcake croissant ice cream. Cotton candy oat cake
-              caramels cotton candy brownie jelly beans lemon drops. Biscuit
-              pudding caramels pudding lemon drops gummi bears lemon drops pie
-              gummi bears. Tootsie roll tart cupcake apple pie icing cake.
-              Fruitcake biscuit cupcake topping pie. Chocolate bar cake
-              liquorice halvah cheesecake bonbon sugar plum wafer. Jelly-o jelly
-              candy canes oat cake powder caramels muffin sweet.F
+            With our prototype, mechanics can efficiently review units and monitor their tasks across workshops. 
+            We've digitalized the unit format, ensuring consistency across locations. 
+            Mechanics receive prompt feedback on starting tasks based on customer needs. 
+            Additional features enhance workshop efficiency and task management. 
+            With this we proudly present Afilum, where mechanical expertise converges with advanced technology.
             </p>
           </div>
         </section>

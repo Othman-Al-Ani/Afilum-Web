@@ -244,6 +244,10 @@ aspect-ratio: 1/1;
 
   }
 
+  #welcome h1{
+    font-size: 3em;
+  }
+
   .navbarLink {
     margin: 0em;
   }
@@ -267,6 +271,7 @@ aspect-ratio: 1/1;
 
   #about {
     height: fit-content;
+    
   }
 
   #faceCard {
