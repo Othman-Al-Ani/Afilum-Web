@@ -160,6 +160,14 @@ aspect-ratio: 1/1;
     text-align: center;
     color: white;
 }
+
+#info_form{
+  font-size: 1.4em;
+  margin-bottom: 0.9em;
+  margin-left: -3vw;
+  align-items: center;
+  text-align: center;
+}
 /*-------------PROJECTS PAGE-----------------*/
 
 #projects {
