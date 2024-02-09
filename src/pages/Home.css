@@ -147,6 +147,19 @@ aspect-ratio: 1/1;
   /* Added border radius for bottom right corner */
 }
 
+
+#person_info_form_div
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
 /*-------------PROJECTS PAGE-----------------*/
 
 #projects {

@@ -46,26 +46,38 @@ function Home() {
           <div id="faceCard">
             <Card
               titel="Ellis Jansson"
-              description="The specialist who excel in design"
+              mail="hehejh"
+              number="070-1234567"
+              linked="linkedin.com"
               image={reactLogo}
             />
             <Card
               titel="Igor Szubert"
-              description=""
+              mail="hehejh"
+              number="070-1234567"
+              linked="linkedin.com"
               image={reactLogo}
             />
             <Card
               titel="Othman Al Ani"
-              description="skriv om dig"
+              mail="hehejh"
+              number="070-1234567"
+              linked="linkedin.com"
               image={reactLogo}
             />
             <Card
               titel="Colin Bexell"
+              mail="hehejh"
+              number="070-1234567"
+              linked="linkedin.com"
               description="skriv om dig"
               image={sexiColin}
             />
             <Card
               titel="Olivia Lindén"
+              mail="hehejh"
+              number="070-1234567"
+              linked="linkedin.com"
               description="skriv om dig"
               image={reactLogo}
             />
