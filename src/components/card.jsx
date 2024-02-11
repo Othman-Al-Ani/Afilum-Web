@@ -7,6 +7,13 @@ import LinkedIn from ".././assets/LinkedIn.png";
 import "../pages/Contact.css";
 import "../pages/Home.css";
 
+import Colin from "../assets/Colin.jpg";
+import Ellis from "../assets/Ellis.jpg";
+import Igor from "../assets/Igor.jpg";
+import Olivia from "../assets/Olivia.jpg";
+import Othman from "../assets/Othman.jpg";
+
+
 function Card(data) {
   const { titel, mail, number,linked, image, link } = data;
 
@@ -22,7 +29,7 @@ function Card(data) {
 
   return (
     <div className="card" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <img src={image} width={"100%"} alt="sätt in egen bild" />
+      <img src={image} id="bgImg" alt="sätt in egen bild" />
 
       <div
         className="cardText"
@@ -45,7 +52,7 @@ function Card(data) {
             id="person_info_form_div"
             style={{
               opacity: Ishover ? 1 : 0,
-              transition: "opacity 0.3s ease",
+              transition: "opacity 3s ease",
               fontSize: 12,
             }}
           >
