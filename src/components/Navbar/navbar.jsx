@@ -18,10 +18,9 @@ import { Link } from "react-scroll";
 
 
 // Assets
-import AfilumLogo from "../../assets/logo.png";
+
 import ProjectsIcon from "../../assets/projects.png";
-import AboutIcon from "../../assets/about.png";
-import ContactIcon from "../../assets/mail.png";
+
 import AfilumIcon from "../../assets/favicon.ico";
 
 
