@@ -50,6 +50,7 @@ function Home() {
               number="070-1234567"
               linked="linkedin.com"
               image={reactLogo}
+              link = ""
             />
             <Card
               titel="Igor Szubert"
@@ -57,13 +58,15 @@ function Home() {
               number="070-1234567"
               linked="linkedin.com"
               image={reactLogo}
+              link = ""
             />
             <Card
               titel="Othman Al Ani"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
+              mail="othman2003alani@gmail.com"
+              number="0729345251"
+              linked="LinkedIn"
               image={reactLogo}
+              link = "https://www.linkedin.com/in/othman-al-ani-3b3b3b1b3/"
             />
             <Card
               titel="Colin Bexell"
@@ -72,6 +75,7 @@ function Home() {
               linked="linkedin.com"
               description="skriv om dig"
               image={sexiColin}
+              link = ""
             />
             <Card
               titel="Olivia Lindén"
@@ -80,6 +84,7 @@ function Home() {
               linked="linkedin.com"
               description="skriv om dig"
               image={reactLogo}
+              link = ""
             />
           </div>
         </section>
