@@ -26,7 +26,7 @@ import AfilumIcon from "../../assets/favicon.ico";
 
 // Components
 import NavbarBTN from "./navbarBTN.jsx";
-import LogoBTN from "./logo.jsx";
+import Logo from "./logo.jsx";
 import MenuBTN from "./MenuBTN.jsx";
 
 function navbar() {
@@ -55,7 +55,7 @@ function navbar() {
         transition: "background-color 0.3s ease",
       }}
     >
-      <LogoBTN />
+      <Logo />
 
       <div className="navbarLink">
        

@@ -4,7 +4,7 @@ import "./Logo.css";
 import AfilumIcon from "../../assets/favicon.ico";
 import { Link } from "react-router-dom";
 
-const logoBTN = () => {
+const logo = () => {
   return (
     
     <Link to={"/Home"} className="logoLink">
@@ -16,4 +16,4 @@ const logoBTN = () => {
   );
 };
 
-export default logoBTN;
+export default logoB;
