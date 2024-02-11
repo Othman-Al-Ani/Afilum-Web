@@ -26,7 +26,7 @@ import AfilumIcon from "../../assets/favicon.ico";
 
 // Components
 import NavbarBTN from "./navbarBTN.jsx";
-import Logo from "./logo.jsx";
+import Logo from "./Logo.jsx";
 import MenuBTN from "./MenuBTN.jsx";
 
 function navbar() {
