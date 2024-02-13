@@ -1,0 +1,16 @@
+# Redirect from /old-page to /new-page
+/old-page    /new-page    301
+
+# Redirect from /about to /about-us
+/about    /about-us    302
+
+# Redirect from /contact to an external URL
+/contact   /contact    301
+
+# Redirect from /blog/* to /news/*
+/blog/:slug    /news/:slug    301
+
+# Redirect from /products/* to /shop/*
+/products/:category/:product    /shop/:category/:product    302
+
+/* /index.html 200

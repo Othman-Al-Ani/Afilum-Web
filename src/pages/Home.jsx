@@ -8,6 +8,13 @@ import reactLogo from "../assets/react.svg";
 import sexiColin from "../assets/sexiColin.jpg";
 import LinkedIn from ".././assets/LinkedIn.png";
 
+
+import Colin from "../assets/Colin.jpg";
+import Ellis from "../assets/Ellis.jpg";
+import Igor from "../assets/Igor.jpg";
+import Olivia from "../assets/Olivia.jpg";
+import Othman from "../assets/Othman.jpg";
+
 // Components imports
 import Card from "../components/card.jsx";
 import Navbar from "../components/Navbar/navbar.jsx";
@@ -46,47 +53,52 @@ function Home() {
           <div id="faceCard">
             <Card
               titel="Ellis Jansson"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
-              image={reactLogo}
+              mail="
+              ellis.jansson5@gmail.com"
+              number="+46731558896"
+              linked="linkedin"
+              image={Ellis}
+              link = "https://www.linkedin.com/in/ellis-jansson-2834a12b2/"
             />
             <Card
               titel="Igor Szubert"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
-              image={reactLogo}
+              mail="szubertigor@gmail.com"
+              number="+46764074280"
+              linked="linkedin"
+              image={Igor}
+              link = "https://www.linkedin.com/in/igor-szubert-5a42702aa/"
             />
             <Card
               titel="Othman Al Ani"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
-              image={reactLogo}
+              mail="othman2003alani@gmail.com"
+              number="+46729345251"
+              linked="LinkedIn"
+              image={Othman}
+              link = "https://www.linkedin.com/in/othman-alani-8133b4251/"
             />
             <Card
               titel="Colin Bexell"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
-              description="skriv om dig"
-              image={sexiColin}
+              mail="colinbexell@gmail.com"
+              number="+4601609060"
+              linked="linkedin"
+              image={Colin}
+              link = "https://www.linkedin.com/in/colin-bexell-b7905129b/"
             />
             <Card
               titel="Olivia Lindén"
-              mail="hehejh"
-              number="070-1234567"
-              linked="linkedin.com"
-              description="skriv om dig"
-              image={reactLogo}
+              mail="oliviam.linden@gmail.com
+              "
+              number="+46725331927"
+              linked="linkedin"
+              image={Olivia}
+              link = "https://www.linkedin.com/in/olivia-lind%C3%A9n-6ba951295/"
             />
           </div>
         </section>
 
         <section id="projects">
           <div id="projectText">
-            <h1> What is Afilum</h1>
+            <h1> What is Afilum ?</h1>
 
             <p>
             Afilum is a company that consists of five young entrepreneurs. 
@@ -109,13 +121,13 @@ function Home() {
         </section>
 
         <section id="vision">
-          <div id="Timeline">
+          {/* <div id="Timeline">
             <h1>Timeline</h1>
 
             <div id="timelineCard">
               <Timeline />
             </div>
-          </div>
+          </div> */}
 
           <div id="visionText">
             <h1> Our Vision</h1>

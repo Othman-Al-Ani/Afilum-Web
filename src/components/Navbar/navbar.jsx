@@ -18,16 +18,15 @@ import { Link } from "react-scroll";
 
 
 // Assets
-import AfilumLogo from "../../assets/logo.png";
+
 import ProjectsIcon from "../../assets/projects.png";
-import AboutIcon from "../../assets/about.png";
-import ContactIcon from "../../assets/mail.png";
+
 import AfilumIcon from "../../assets/favicon.ico";
 
 
 // Components
 import NavbarBTN from "./navbarBTN.jsx";
-import LogoBTN from "./logo.jsx";
+import Logo from "./Logo.jsx";
 import MenuBTN from "./MenuBTN.jsx";
 
 function navbar() {
@@ -56,7 +55,7 @@ function navbar() {
         transition: "background-color 0.3s ease",
       }}
     >
-      <LogoBTN />
+      <Logo />
 
       <div className="navbarLink">
        

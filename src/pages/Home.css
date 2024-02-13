@@ -136,10 +136,10 @@ aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   align-self: flex-end;
   position: absolute;
-  font-size: 70%;
+  
   border-bottom-left-radius: 9px;
   /* Added border radius for bottom left corner */
   border-bottom-right-radius: 9px;
@@ -147,27 +147,71 @@ aspect-ratio: 1/1;
   /* Added border radius for bottom right corner */
 }
 
+.cardText h2 {
+  margin: 5%;
+  margin-top: 10%;
+  justify-content: center;
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+
+#info_form2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+#info_form2 #icon {
+  height: 5vh;
+  margin-left: 5%;
+ 
+  
+  
+}
+
+#info_form2 h5 {
+  color: white;
+ margin-left: 1%;
+  text-align: left;
+  width: fit-content;
+ 
+}
+
 
 #person_info_form_div
 {
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 5%;
+    align-items: left;
+    /* padding: 2%; */
     text-align: center;
     color: white;
 }
 
-#info_form{
-  font-size: 1.4em;
-  margin-bottom: 0.9em;
-  margin-left: -3vw;
+#peson_name{
+
+  margin: 5%;
+ 
   align-items: center;
   text-align: center;
+  
 }
+
+.card #bgImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* Added border radius for top corners */
+}
+
+
 /*-------------PROJECTS PAGE-----------------*/
 
 #projects {
@@ -266,7 +310,7 @@ aspect-ratio: 1/1;
   }
 
   #welcome h1{
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
   .navbarLink {
