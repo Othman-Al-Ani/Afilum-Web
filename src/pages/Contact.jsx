@@ -84,7 +84,7 @@ const Contact = () => {
               <div id="info_form_div">
                 <div id="info_form">
                   <img src={Mail} alt="" id="icon" />
-                  <h3>colinbexell@gmail.com</h3>
+                  <h3>afilum.info@gmail.com</h3>
                 </div>
                 <div id="info_form">
                   <img src={Phone} alt="" id="icon" />
