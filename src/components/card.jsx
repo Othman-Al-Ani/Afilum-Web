@@ -29,7 +29,7 @@ function Card(data) {
 
   return (
     <div className="card" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <img src={image} id="bgImg" alt="sätt in egen bild" />
+      <img src={image} id="bgImg-" alt="sätt in egen bild" />
 
       <div
         className="cardText"
