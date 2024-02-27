@@ -71,13 +71,17 @@
   margin-left: 2%;
   margin-top: 2vh;
   justify-self: left;
+
+  
+
+  
 }
+
+
 
 #message_input {
   width: 26vw;
   height: 18vh;
-
-
 
   border-radius: 15px;
   background-color: white;

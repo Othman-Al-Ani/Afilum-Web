@@ -22,11 +22,12 @@
 .footer a {
     color: #ffff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .footer a:hover {
     text-decoration: underline;
+    color:#911517;
 }
 
 #footerLogo {

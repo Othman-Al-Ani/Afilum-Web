@@ -29,14 +29,14 @@ function Card(data) {
 
   return (
     <div className="card" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <img src={image} id="bgImg" alt="sätt in egen bild" />
+      <img src={image} id="bgImg" alt="" />
 
       <div
         className="cardText"
         style={{
-         height: Ishover ? "80%" : "20%",
+         height: Ishover ? "70%" : "20%",
         
-          transition: "height 0.3s ease",
+          transition: "height 0.2s ease",
         }}
       >
         <h2 
@@ -52,7 +52,7 @@ function Card(data) {
             id="person_info_form_div"
             style={{
               opacity: Ishover ? 1 : 0,
-              transition: "opacity 3s ease",
+              transition: "opacity 1s ease",
               fontSize: 12,
             }}
           >

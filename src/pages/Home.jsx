@@ -53,10 +53,9 @@ function Home() {
           <div id="faceCard">
             <Card
               titel="Ellis Jansson"
-              mail="
-              ellis.jansson5@gmail.com"
+              mail="ellis.jansson5@gmail.com"
               number="+46731558896"
-              linked="linkedin"
+              linked="LinkedIn"
               image={Ellis}
               link = "https://www.linkedin.com/in/ellis-jansson-2834a12b2/"
             />
@@ -64,7 +63,7 @@ function Home() {
               titel="Igor Szubert"
               mail="szubertigor@gmail.com"
               number="+46764074280"
-              linked="linkedin"
+              linked="LinkedIn"
               image={Igor}
               link = "https://www.linkedin.com/in/igor-szubert-5a42702aa/"
             />
@@ -80,16 +79,15 @@ function Home() {
               titel="Colin Bexell"
               mail="colinbexell@gmail.com"
               number="+4601609060"
-              linked="linkedin"
+              linked="LinkedIn"
               image={Colin}
               link = "https://www.linkedin.com/in/colin-bexell-b7905129b/"
             />
             <Card
               titel="Olivia Lindén"
-              mail="oliviam.linden@gmail.com
-              "
+              mail="oliviam.linden@gmail.com"
               number="+46725331927"
-              linked="linkedin"
+              linked="LinkedIn"
               image={Olivia}
               link = "https://www.linkedin.com/in/olivia-lind%C3%A9n-6ba951295/"
             />
@@ -98,7 +96,7 @@ function Home() {
 
         <section id="projects">
           <div id="projectText">
-            <h1> What is Afilum ?</h1>
+            <h1> What is Afilum?</h1>
 
             <p>
             Afilum is a company that consists of five young entrepreneurs. 

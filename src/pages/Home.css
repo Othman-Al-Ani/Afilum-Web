@@ -112,16 +112,16 @@ aspect-ratio: 1/1;
 /* Default styles */
 .card {
   padding: 0;
-  margin: 2%;
+  margin: 1.5%;
   /* Decreased margin value */
   background-color: aqua;
   width: 100%;
   aspect-ratio: 3/4;
-  border: white 2px solid;
+  border: white 1px solid;
   display: flex;
   flex-direction: row;
   position: relative;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
   transition: all ease-in-out 0.2s;
 }
 
@@ -194,9 +194,7 @@ aspect-ratio: 1/1;
 }
 
 #peson_name{
-
   margin: 5%;
- 
   align-items: center;
   text-align: center;
   
@@ -206,9 +204,8 @@ aspect-ratio: 1/1;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  /* Added border radius for top corners */
+  border-radius: 10px 10px 10px 10px;
+  
 }
 
 
