@@ -60,13 +60,13 @@ aspect-ratio: 1/1;
 
   
  
-  filter: saturate(400%); 
+  filter: saturate(100%); 
  
 }
 
 #welcomeLogo {
-  aspect-ratio: 2/1;
-  width: 60%;
+  aspect-ratio: 1.8/1;
+  width: 50%;
 
   
 }
@@ -312,9 +312,16 @@ aspect-ratio: 1/1;
     
   } 
 
+  #welcomeLogo{
+    aspect-ratio: 1.8/1;
+    height: 40%;
+    width: 100vw;
+    margin-left: -8vw;
+  }
+
   #welcome, #about, #projects, #vision {
    width: 100vw;
-
+   height: 70vh;
   }
 
   #welcome h1{
