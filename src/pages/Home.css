@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
 #root {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
@@ -47,12 +49,7 @@ aspect-ratio: 1/1;
 /*-------------WELCOME PAGE-----------------*/
 
 #welcome {
-  background: rgb(241, 0, 0);
-  background: linear-gradient(
-    315deg,
-    rgba(241, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 56%
-  );
+  background: rgb(0, 0, 0);
 
   display: flex;
   flex-direction: column;
@@ -60,15 +57,20 @@ aspect-ratio: 1/1;
   align-items: left;
   height: 100vh;
 
-
-  
+  background-image: url("src/assets/bg.png");
+ 
+  filter: saturate(400%); 
  
 }
 
 #welcomeLogo {
   aspect-ratio: 2/1;
   width: 60%;
+
+  
 }
+
+
 
 #welcome h1 {
   justify-self: left;
@@ -139,12 +141,9 @@ aspect-ratio: 1/1;
   justify-content: end;
   align-self: flex-end;
   position: absolute;
-  
   border-bottom-left-radius: 9px;
-  /* Added border radius for bottom left corner */
   border-bottom-right-radius: 9px;
   border-right: black 1px solid;
-  /* Added border radius for bottom right corner */
 }
 
 .cardText h2 {
@@ -153,7 +152,18 @@ aspect-ratio: 1/1;
   justify-content: center;
   font-size: 1.5em;
   text-align: center;
-  
+}
+
+@media screen and (max-width: 768px) {
+  .cardText h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardText h2 {
+    font-size: 1em;
+  }
 }
 
 #info_form2 {
