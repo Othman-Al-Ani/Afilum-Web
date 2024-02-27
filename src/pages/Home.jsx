@@ -6,7 +6,7 @@ import "./Home.css";
 import AfilumLogo from "../assets/logo.png";
 import reactLogo from "../assets/react.svg";
 import LinkedIn from ".././assets/LinkedIn.png";
-import bgImage from "../assets/just_the_bg.png";
+import bgImage from "../assets/bg.png";
 
 
 import Colin from "../assets/Colin.jpg";
@@ -27,7 +27,7 @@ function Home() {
       <ChakraProvider>
         <Navbar />
 
-        <section id="welcome" style={{ bgImage }}>
+        <section id="welcome" >
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Where mechanical expertise converges with technology </h1>
        

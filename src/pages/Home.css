@@ -16,7 +16,7 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 0.5em;
+  padding: 0em;
   z-index: 1;
   
 }
@@ -49,6 +49,7 @@ aspect-ratio: 1/1;
 /*-------------WELCOME PAGE-----------------*/
 
 #welcome {
+  background-image: url("../assets/bg.png");
   background: rgb(0, 0, 0);
 
   display: flex;
@@ -57,7 +58,7 @@ aspect-ratio: 1/1;
   align-items: left;
   height: 100vh;
 
-  background-image: url("src/assets/bg.png");
+  
  
   filter: saturate(400%); 
  
@@ -301,7 +302,7 @@ aspect-ratio: 1/1;
     top: 0;
     left: 0;
     right: 0;
-    padding: 1em;
+    padding: 0em;
     z-index: 1;
   }
 
@@ -321,7 +322,7 @@ aspect-ratio: 1/1;
   }
 
   .navbarLink {
-    margin: 0em;
+    margin: 2em;
   }
 
   .navbarLink a {
