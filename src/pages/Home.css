@@ -50,14 +50,10 @@ aspect-ratio: 1/1;
 
 #welcome {
   
-    background-image: url(../assets/bg.png) !important;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center bottom ;
-    
-    
-   
-    
+  background-image: url(../assets/bg.png) !important;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center bottom ; 
   background-color: black;
 
   display: flex;
@@ -334,10 +330,22 @@ aspect-ratio: 1/1;
     width: 100vw;
     margin-left: -8vw;
   }
+  
+  #welcome{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../assets/bg.png) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    
+  }
 
   #welcome, #about, #projects, #vision {
    width: 100vw;
    height: 70vh;
+  
+  
   }
 
   #welcome h1{
