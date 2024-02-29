@@ -59,6 +59,7 @@
     #footerLinks {
         width: 100%;
         flex-direction: row;
+        margin-bottom: 2vh;
     }
 }
 

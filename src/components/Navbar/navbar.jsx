@@ -80,7 +80,7 @@ function navbar() {
           </Button>
         </div>
       </div>
-      <Drawer
+      <Drawer 
         size="md"
         isOpen={isOpen}
         placement="right"
@@ -90,7 +90,7 @@ function navbar() {
         <DrawerOverlay />
         <DrawerContent
           color={"#ff0000"}
-          backgroundColor={"#2d2d2d"}
+          backgroundColor={"black"}
           borderRadius={20}
         >
           <DrawerCloseButton
@@ -105,9 +105,11 @@ function navbar() {
           </DrawerHeader>
 
           <DrawerBody>
-            <MenuBTN
+            <MenuBTN 
               ButtonText={"About us"}
               PageRef={"/Home"}
+
+
              
             />
             <MenuBTN ButtonText={"Projects"} PageRef={""} Icon={ProjectsIcon} />
