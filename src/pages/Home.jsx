@@ -27,7 +27,7 @@ function Home() {
       <ChakraProvider>
         <Navbar />
 
-        <section id="welcome" >
+        <section id="welcome" style={{ backgroundImage:{bgImage} }}>
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Where mechanical expertise converges with technology </h1>
        
@@ -45,6 +45,8 @@ function Home() {
           <h2 className="about h2"
             style={{
               fontSize: 20,
+              marginTop: 20,
+              
             }}
           >
             The five faces that represents Afilum.{" "}
