@@ -49,8 +49,16 @@ aspect-ratio: 1/1;
 /*-------------WELCOME PAGE-----------------*/
 
 #welcome {
-  background-image: url("../assets/bg.png");
-  background: rgb(0, 0, 0);
+  
+    background-image: url(../assets/bg.png) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center bottom ;
+    
+    
+   
+    
+  background-color: black;
 
   display: flex;
   flex-direction: column;
@@ -60,7 +68,7 @@ aspect-ratio: 1/1;
 
   
  
-  filter: saturate(100%); 
+  
  
 }
 

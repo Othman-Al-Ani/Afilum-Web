@@ -27,7 +27,7 @@ function Home() {
       <ChakraProvider>
         <Navbar />
 
-        <section id="welcome" style={{ backgroundImage:{bgImage} }}>
+        <section id="welcome" >
           <img src={AfilumLogo} id="welcomeLogo" alt="" />
           <h1> Where mechanical expertise converges with technology </h1>
        
