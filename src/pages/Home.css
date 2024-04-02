@@ -301,6 +301,19 @@ aspect-ratio: 1/1;
   color: white;
 }
 
+#GroupPicture{
+  width: 90%;
+  
+}
+
+#GroupImage{
+  border-radius: 1vh;
+}
+
+#background-div{
+  margin-top: 10vh;
+}
+
 /*-------------RESPONSIVE PARTs-----------------*/
 
 @media screen and (max-width: 1000px) {

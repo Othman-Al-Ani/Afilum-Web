@@ -14,6 +14,7 @@ import Ellis from "../assets/Ellis.jpg";
 import Igor from "../assets/Igor.jpg";
 import Olivia from "../assets/Olivia.jpg";
 import Othman from "../assets/Othman.jpg";
+import GruppBild from "../assets/Gruppbild.jpg";
 
 // Components imports
 import Card from "../components/card.jsx";
@@ -140,6 +141,14 @@ function Home() {
             With this we proudly present Afilum, where mechanical expertise converges with advanced technology.
             </p>
           </div>
+
+          <div id="GroupPicture">
+            <img id="GroupImage" src= { GruppBild }></img>
+            <div id="background-div"></div>
+          </div>
+
+
+
         </section>
 
         <Footer />
